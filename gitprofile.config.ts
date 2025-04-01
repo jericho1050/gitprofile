@@ -17,10 +17,26 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 50, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['jericho1050/desttrack-production-project', 
+          'jericho1050/desttrack-first-ever-project',
+          'jericho1050/fastapi2',
+          'jericho1050/fastapi3',
+          'jericho1050/calculator',
+          'jericho1050/google',
+          'jericho1050/wiki',
+          'jericho1050/project2',
+          'jericho1050/authentication-and-authorisation-with-expressjs',
+          'jericho1050/tribute-page',
+          'jericho1050/palindrome',
+          'jericho1050/blog-app-redux',
+          'jericho1050/FCC_relational_database_cert',
+          'jericho1050/nextjs-blog',
+          'jericho1050/solidity-refresh-todo',
+          'jericho1050/react-challenges',
+          'jericho1050/aoc-puzzle-2024']
         },
       },
       manual: {
